@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-gatsby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ecommerce-gatsby",
+  "author": "Ian Duffy",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.24.5",
+    "gatsby-plugin-no-javascript": "^2.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gatsby-plugin-postcss": "^5.24.0",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1"
+  }
+}
