@@ -1,3 +1,5 @@
+"use client"
+
 export const scrollRightByOne = (sliderRef) => {
   if (sliderRef.current) {
     sliderRef.current.scrollLeft += getCurrentSlideWidth(sliderRef)

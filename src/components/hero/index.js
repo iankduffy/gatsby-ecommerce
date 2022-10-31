@@ -31,6 +31,7 @@ const myLoader = (src, width, height, quality) => {
 };
 
 export function HeroComp() {
+  console.log('Here the hero')
   return (
     <section className="lg:grid grid-cols-3 mb-5">
       <div className="col-span-2 w-full overflow-hidden">

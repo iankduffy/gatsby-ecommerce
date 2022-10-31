@@ -4,11 +4,16 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-postcss',
-    {
-      resolve: 'gatsby-plugin-no-javascript',
-      options: {
-        excludeFiles: 'components/product-slider'
-      }
-    },
+    // 'gatsby-plugin-no-javascript'
+    // {
+    //   resolve: 'gatsby-plugin-no-javascript',
+    //   options: {
+    //     // excludeFiles: /product-slider/, 
+    //     // excludePaths: ['/']
+    //   }
+    // },
   ],
+  flags: {
+    PARTIAL_HYDRATION: true
+  }
 }
